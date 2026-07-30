@@ -8,15 +8,19 @@ WebAssembly is a compact binary instruction format that runs at near-native spee
 
 ## What is inside
 
-- `01-what-wasm-is.md` the binary format, the virtual machine, and what problem it solves.
-- `02-running-in-browser-and-wasi.md` how wasm loads in the browser and runs outside it.
-- `03-the-wasm-js-boundary.md` how wasm and JavaScript pass data and calls.
-- `04-when-wasm-helps-and-when-not.md` the honest trade-offs on speed and complexity.
-- `05-languages-and-security.md` what compiles to wasm and how the sandbox contains it.
+- [01-what-wasm-is.md](01-what-wasm-is.md) the binary format, the virtual machine, and what problem it solves.
+- [02-running-in-browser-and-wasi.md](02-running-in-browser-and-wasi.md) how wasm loads in the browser and runs outside it.
+- [03-the-wasm-js-boundary.md](03-the-wasm-js-boundary.md) how wasm and JavaScript pass data and calls.
+- [04-when-wasm-helps-and-when-not.md](04-when-wasm-helps-and-when-not.md) the honest trade-offs on speed and complexity.
+- [05-languages-and-security.md](05-languages-and-security.md) what compiles to wasm and how the sandbox contains it.
 
 ## The stance
 
 This reference treats wasm as a specialized tool, not a silver bullet. It is excellent for compute-bound work and for reusing existing native code on the web, and it is beside the point for ordinary interface code. Reaching for it where plain JavaScript would do adds a boundary and a build step for no gain.
+
+## More
+
+Part of a catalog of single-file browser tools and plain-language references, all MIT licensed and dependency-free: [0xelitesystem.github.io](https://0xelitesystem.github.io/). Built by [elitesystem.ai](https://elitesystem.ai).
 
 ## License
 
